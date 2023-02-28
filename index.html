@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        header {
+            margin-left: 10px;
+        }
+
+        .header-img {
+            position: relative;
+            object-fit: cover;
+        }
+
+        .header-text {
+            position: absolute;
+            font-size: xx-large;
+            line-height: 1.5;
+            margin-right: 100px;
+            width: 520px;
+            top: 480px;
+            padding-left: 15px;
+            background-color: rgba(247, 203, 72, 0.675);
+        }
+
+        main {
+            width: 90%;
+            margin: 0px auto;
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .main-left {
+            width: 46%;
+        }
+
+        .main-right {
+            width: 46%;
+        }
+
+        .section {
+            margin: 50px 20px;
+            line-height: 2;
+        }
+
+        .section img {
+            border-top: 6px solid rgb(247, 194, 69);
+            object-fit: cover;
+        }
+
+        .section p {
+            padding-bottom: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="img">
+            <img width="100%" src="./resources/beach3.jpg" alt="">
+        </div>
+        <div class="header-text">
+            <b>
+                4 Good Reasons
+                <br>
+                For travelling with us
+            </b>
+        </div>
+    </header>
+    <main>
+        <div class="main-left">
+            <div class="section">
+                <img width="100%" src="./resources/cellphone.jpg" alt="">
+                <p style="font-size: x-large;font-weight: 2;">Smart Vacation</p>
+                <p>Full vacation control from your cell phone.</p>
+            </div>
+            <div class="section">
+                <img width="100%" src="./resources/truck.jpg" alt="">
+                <p style="font-size: x-large;font-weight: 2;">Car Rental Included</p>
+                <p>Wherever you travel our car rental is included.</p>
+            </div>
+        </div>
+        <div class="main-right">
+            <div class="section">
+                <img width="100%" src="./resources/sealions.jpg" alt="">
+                <p style="font-size: x-large;font-weight: 2;">Super Offers</p>
+                <p>Up to 50% offers. Always 25% student offers.</p>
+            </div>
+            <div class="section">
+                <img width="100%" src="./resources/nowornever.jpg" alt="">
+                <p style="font-size: x-large;font-weight: 2;">Realize Your Dreams</p>
+                <p>Don't wait until it is to late.</p>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
